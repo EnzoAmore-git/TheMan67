@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.qa/
+*.log
+.DS_Store
+.env*
+assets/images/hero-original.png
+assets/images/portfolio/original-*.jpg
+
