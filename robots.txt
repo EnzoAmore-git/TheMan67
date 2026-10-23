@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /archive/
+Disallow: /docs/
+Disallow: /tools/
+Sitemap: https://www.theman67.ru/sitemap.xml
+
