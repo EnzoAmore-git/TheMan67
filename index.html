@@ -75,7 +75,7 @@
         "@id": "https://www.theman67.ru/#business",
         "name": "TheMan67",
         "url": "https://www.theman67.ru/",
-        "image": "https://www.theman67.ru/assets/images/viktoria.webp",
+        "image": "https://www.theman67.ru/assets/images/viktoria-portrait.webp",
         "telephone": "+79107111112",
         "description": "Мужские и детские стрижки, оформление и тонирование бороды в Смоленске. Мастер — Виктория Середина.",
         "address": {
@@ -209,9 +209,12 @@
                 Виктории Серединой.
               </p>
               <div class="hero-actions">
-                <a class="btn" href="#contact"
-                  >Выбрать время
-                  <span class="arrow" aria-hidden="true">↗</span></a
+                <a
+                  class="btn"
+                  href="https://t.me/theman6767"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Записаться <span class="arrow" aria-hidden="true">↗</span></a
                 ><a class="text-link" href="#services"
                   >Услуги и цены <span aria-hidden="true">↓</span></a
                 >
@@ -248,34 +251,57 @@
           </div>
         </div>
       </section>
-      <section id="about" class="section paper" aria-labelledby="about-title">
-        <div class="container about-grid">
-          <h2 id="about-title" class="eyebrow section-label">01 / О нас</h2>
-          <div>
-            <p class="about-statement reveal">
-              Стрижка должна подходить <em>тебе.</em> Форме лица, привычкам,
-              тому, как ты живёшь.
+      <section
+        id="about"
+        class="section paper about-section"
+        aria-labelledby="about-title"
+      >
+        <div class="container">
+          <div class="about-heading-row">
+            <p class="eyebrow section-label">01 / О нас</p>
+            <span class="eyebrow about-location">TheMan67 · Смоленск</span>
+          </div>
+          <div class="about-intro">
+            <h2 id="about-title" class="about-title">
+              От записи до стрижки —<br /><span class="serif"
+                >один мастер.</span
+              >
+            </h2>
+            <div class="about-copy">
+              <p class="about-lead">
+                TheMan67 — барбершоп Виктории Серединой. Она открыла его и сама
+                работает с клиентами.
+              </p>
+              <p>
+                Здесь можно обновить привычную стрижку, попробовать другую форму
+                или привести в порядок бороду. Приходи со своей идеей или выбери
+                вариант вместе с мастером.
+              </p>
+            </div>
+          </div>
+          <figure class="about-editorial reveal">
+            <img
+              src="assets/images/viktoria-editorial.webp"
+              srcset="
+                assets/images/viktoria-editorial-small.webp  600w,
+                assets/images/viktoria-editorial.webp       1200w
+              "
+              sizes="(max-width:700px) 100vw, 90vw"
+              width="1200"
+              height="800"
+              alt="Редакционный портрет основателя TheMan67"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <div class="about-bottom">
+            <p>
+              Мужские и детские стрижки<span aria-hidden="true"> / </span
+              ><span>Оформление бороды</span>
             </p>
-            <div class="about-details">
-              <p>
-                TheMan67 — барбершоп в Смоленске. Здесь стригут мужчин и детей,
-                оформляют и тонируют бороду. За работу отвечает Виктория
-                Середина — основатель и мастер.
-              </p>
-              <p>
-                Классическая форма или новый образ — начни с разговора с
-                мастером. Покажи референс, расскажи, что хочется изменить.
-                Детали решают.
-              </p>
-            </div>
-            <div class="about-signature">
-              <div class="about-mark" aria-hidden="true">67</div>
-              <p>
-                TheMan67<br /><span class="muted"
-                  >Смоленск, Нормандия-Неман, 3</span
-                >
-              </p>
-            </div>
+            <a class="text-link" href="#gallery"
+              >Посмотреть работы <span aria-hidden="true">↗</span></a
+            >
           </div>
         </div>
       </section>
@@ -366,15 +392,15 @@
         <div class="container master-layout">
           <figure class="master-portrait reveal">
             <img
-              src="assets/images/viktoria.webp"
+              src="assets/images/viktoria-portrait.webp"
               width="960"
-              height="956"
-              alt="Виктория Середина в барбершопе TheMan67"
+              height="1200"
+              alt="Виктория Середина — основатель и барбер TheMan67"
               loading="lazy"
               decoding="async"
             />
             <figcaption class="portrait-caption">
-              <span>Виктория Середина</span><span>TheMan67 / Смоленск</span>
+              <span>Основатель / барбер</span><span>TheMan67</span>
             </figcaption>
           </figure>
           <div class="master-info">
@@ -395,8 +421,7 @@
               <li>Консультация по стилю</li>
             </ul>
             <a class="text-link" href="#contact"
-              >Записаться к Виктории
-              <span class="arrow" aria-hidden="true">↗</span></a
+              >Записаться <span class="arrow" aria-hidden="true">↗</span></a
             >
           </div>
         </div>
