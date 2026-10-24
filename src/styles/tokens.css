@@ -1,0 +1,19 @@
+:root {
+  --ink: #181a19;
+  --ink-soft: #232622;
+  --paper: #f0ede5;
+  --white: #fffdf7;
+  --muted: #b6b7ae;
+  --muted-dark: #5e6058;
+  --accent: #b63428;
+  --accent-hover: #92291f;
+  --line: #ffffff29;
+  --line-dark: #181a1933;
+  --body: "Manrope", Arial, sans-serif;
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --gutter: clamp(24px, 5vw, 96px);
+  --max: 1600px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fast: 180ms;
+  --slow: 650ms;
+}

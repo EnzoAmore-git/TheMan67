@@ -1,0 +1,43 @@
+@keyframes hero-arrive {
+  from {
+    transform: scale(1.045);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes title-arrive {
+  from {
+    transform: translateY(14px);
+    opacity: 0.5;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-visual img {
+    animation: hero-arrive 3s var(--ease) both;
+  }
+  .hero-brand {
+    animation: title-arrive 850ms var(--ease) both;
+  }
+  .reveal.is-revealed {
+    animation: title-arrive 650ms var(--ease) both;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .hero-visual img {
+    transform: none !important;
+  }
+}
